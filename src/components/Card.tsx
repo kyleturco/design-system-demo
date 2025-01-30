@@ -19,7 +19,9 @@ const Card = ({ title, description, children, size = "small" }: CardProps) => {
     }
   };
   return (
-    <div className={`border-rounded px-5 py-6 pb-7 bg-white ${getSizeClass()}`}>
+    <div
+      className={`rounded-md shadow-sm px-5 py-6 pb-7 bg-white ${getSizeClass()}`}
+    >
       <h3 className="text-black text-2xl">{title}</h3>
       <p className="text-black">{description}</p>
       {children}

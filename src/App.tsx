@@ -16,7 +16,18 @@ function App() {
         <Button type="success" label="Button Success" />
       </div>
       <div className="py-2">
-        <Button type="primary" label="Button Primary with Icon" icon="plus" />
+        <Button
+          type="secondary"
+          label="Button Secondary with Check"
+          icon="check"
+        />
+      </div>
+      <div className="py-2">
+        <Button
+          type="primary"
+          label="Button Primary with Chevron"
+          icon="down"
+        />
       </div>
       <h3 className="text-2xl pt-4 pb-3">Nested Components</h3>
       <h4>Card</h4>
@@ -34,7 +45,7 @@ function App() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         >
           <div className="pt-4">
-            <Button type="primary" label="Button Primary" />
+            <Button type="primary" label="Button Primary" icon="plus" />
           </div>
         </Card>
       </div>
